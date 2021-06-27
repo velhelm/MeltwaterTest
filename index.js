@@ -18,7 +18,7 @@ function formatRedactionsAsArray(redactions) {
     if (!redactions || redactions.length === 0) {
         return [];
     }
-    const quotePhraseRegex = RegExp(/["'](\\.|[^"'\\])*["']/g);
+    const quotePhraseRegex = RegExp(/["'“‘](\\.|[^"'”’\\])*["'”’]/g);
     let formattedRedations = redactions.match(quotePhraseRegex) || [];
     if (formattedRedations.length > 0) {
         formattedRedations = formattedRedations.map(r => {

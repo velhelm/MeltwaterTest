@@ -13,8 +13,8 @@
     "esm": "^3.2.25"
   },
   "ava": {
-      "require": [
-          "esm"
-      ]
+    "require": [
+      "esm"
+    ]
   }
 }
