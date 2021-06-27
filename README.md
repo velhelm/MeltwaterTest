@@ -1,7 +1,7 @@
 Hi, thanks for taking the time to interview me.
 
 ASSIGNMENT 1
-The entry point for Assignment one is index.js, and I've written a test suite
+The entry point for Assignment one is `index.js`, and I've written a test suite
 in Ava which can be executed with `npm test`
 
 ASSIGNMENT 2
